@@ -1,6 +1,9 @@
-export function throttle<T extends (...args: any[]) => void>(fn: T, wait = 100) {
+export function throttle<T extends (...args: unknown[]) => void>(
+  fn: T,
+  wait = 100
+) {
   let last = 0;
-  let timer: any;
+  let timer: NodeJS.Timeout;
   return (...args: Parameters<T>) => {
     const now = Date.now();
     if (now - last >= wait) {
@@ -18,6 +21,8 @@ export function throttle<T extends (...args: any[]) => void>(fn: T, wait = 100) 
 
 export function isReducedMotion() {
   if (typeof window === "undefined") return false;
-  return window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  return (
+    window.matchMedia &&
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches
+  );
 }
-

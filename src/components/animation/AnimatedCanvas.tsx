@@ -18,7 +18,7 @@ interface Shape {
 export default function AnimatedCanvas() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const shapesRef = useRef<Shape[]>([]);
-  const animationRef = useRef<number>();
+  const animationRef = useRef<number | null>(null);
 
   // Opacity constant for shapes
   const SHAPE_OPACITY = 0.25;

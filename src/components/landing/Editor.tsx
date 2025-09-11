@@ -10,7 +10,7 @@ export default function Editor() {
             Live Editor Preview
           </h2>
           <p className="text-xl text-muted-foreground">
-            Experience the power of Animo's animation generation
+            Experience the power of Animo&apos;s animation generation
           </p>
         </div>
 

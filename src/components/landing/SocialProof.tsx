@@ -34,7 +34,8 @@ export default function SocialProof() {
         {/* Rating and Stats */}
         <div className="text-center mb-12">
           <p className="text-lg md:text-xl text-muted-foreground mb-4">
-            "The best STEM explainer tool we've tried." — Dr. X, University Y
+            &quot;The best STEM explainer tool we&apos;ve tried.&quot; &mdash;
+            Dr. X, University Y
           </p>
           <div className="flex items-center justify-center gap-2 mb-2">
             {[...Array(5)].map((_, i) => (
@@ -62,7 +63,7 @@ export default function SocialProof() {
                 ))}
               </div>
               <blockquote className="text-foreground mb-4 leading-relaxed">
-                "{testimonial.quote}"
+                &quot;{testimonial.quote}&quot;
               </blockquote>
               <div className="text-sm">
                 <div className="font-semibold text-foreground">
