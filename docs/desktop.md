@@ -1,5 +1,5 @@
 +====================================================================================================+
-| LOGO (SteamFun)                     Home  Features  How it works  Pricing  Docs  Blog      [Try It]|
+| LOGO (StemFun)                     Home  Features  How it works  Pricing  Docs  Blog      [Try It]|
 +----------------------------------------------------------------------------------------------------+
 | HERO: "Generative Manim-powered STEM videos"                                                       |
 | Subhead: “Create accurate, interactive STEM animations from text or problems.”                     |
@@ -61,5 +61,5 @@
 |  Ready to create your first interactive STEM video?  [Try the Interactive Demo]    [Talk to Sales] |
 +----------------------------------------------------------------------------------------------------+
 | FOOTER                                                                                             |
-|  Product  Docs  Blog  Careers  Community  Privacy  Terms  Contact   © SteamFun                     |
+|  Product  Docs  Blog  Careers  Community  Privacy  Terms  Contact   © StemFun                     |
 +====================================================================================================+

@@ -1,4 +1,4 @@
-# SteamFun Landing Page — Overview & Implementation Guide
+# StemFun Landing Page — Overview & Implementation Guide
 
 This document defines the goals, structure, style, motion, and implementation details for a modern, high‑impact landing page with engaging scroll effects. It consolidates the device layouts into a single source of truth and provides practical guidance for building and validating the page.
 

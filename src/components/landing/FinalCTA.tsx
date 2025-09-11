@@ -1,15 +1,21 @@
 export default function FinalCTA() {
   return (
     <section id="cta" className="container mx-auto px-4 py-20">
-      <div className="max-w-3xl mx-auto text-center">
-        <h2 className="text-3xl md:text-5xl font-semibold tracking-tight">Build your next STEM lesson</h2>
-        <p className="mt-4 text-base md:text-lg text-muted-foreground">Try the editor and see precise animations in action.</p>
-        <div className="mt-8 flex items-center justify-center gap-3">
-          <a href="#editor" className="inline-flex h-11 items-center rounded-md bg-primary px-6 text-primary-foreground">Try Demo</a>
-          <a href="#pricing" className="inline-flex h-11 items-center rounded-md border px-6">Talk to Sales</a>
+      <div className="max-w-4xl mx-auto">
+        <div className="glass-effect rounded-3xl p-12 text-center">
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white">
+            Ready to create your first interactive STEM video?
+          </h2>
+          <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+            <button className="inline-flex h-12 items-center rounded-lg bg-primary px-8 text-lg font-medium text-primary-foreground hover:bg-primary/90 transition-colors shadow-lg shadow-primary/25 cursor-pointer">
+              Try the Interactive Demo
+            </button>
+            <button className="inline-flex h-12 items-center rounded-lg border border-border px-8 text-lg font-medium hover:bg-accent transition-colors cursor-pointer">
+              Talk to Sales
+            </button>
+          </div>
         </div>
       </div>
     </section>
   );
 }
-

@@ -4,7 +4,7 @@ Thiếu khả năng trực quan hóa chuyên sâu và chính xác: Khó tạo đ
 Phụ thuộc vào dữ liệu đầu vào có sẵn:  Các mô hình AI có thể tạo ra nội dung giống với các nội dung đã có trước đó do được huấn luyện và thiếu sự sáng tạo[5]. Điều này sẽ ảnh hưởng đến nội dung giáo dục khi mà các cách tiếp cận mới và đơn giản hóa các khái niệm phức tạp được người xem rất ưu chuộng
 3. Giải pháp đề xuất và các tính năng cốt lõi:
 Mô tả giải pháp:
-"SteamFun - Generative Manim-powered for Animated Learning" là một nền tảng ứng dụng trí tuệ nhân tạo nhằm hỗ trợ tạo các video giáo dục STEM, trực quan và có tính tương tác cao. Không giống các Video được tạo ra từ AI truyền thống, giải pháp của nhóm chúng tôi tiếp cận theo 1 hướng khác; bằng cách sử dụng sự mạnh mẽ của thư viện Manim và FFmpeg, các video được tạo ra không phải dùng Diffusion model, từ đó duy trì sự chính xác và có các thành phần, nội dung mang tính giáo dục
+"StemFun - Generative Manim-powered for Animated Learning" là một nền tảng ứng dụng trí tuệ nhân tạo nhằm hỗ trợ tạo các video giáo dục STEM, trực quan và có tính tương tác cao. Không giống các Video được tạo ra từ AI truyền thống, giải pháp của nhóm chúng tôi tiếp cận theo 1 hướng khác; bằng cách sử dụng sự mạnh mẽ của thư viện Manim và FFmpeg, các video được tạo ra không phải dùng Diffusion model, từ đó duy trì sự chính xác và có các thành phần, nội dung mang tính giáo dục
 Các tính năng cốt lõi (Prototype Demo):
 Video giải thích các chủ đề khoa học
 Từ đầu vào là một khái niệm trong lĩnh vực STEM, hệ thống sẽ tạo video để giải thích khái niệm với những hình ảnh minh họa trực quan và giọng thuyết minh (phụ đề).
@@ -17,7 +17,7 @@ Nền tảng chỉnh sửa video AI trực tuyến
 Giao diện chỉnh sửa video qua nền web với các tính năng chỉnh sửa video cơ bản như màu sắc, độ dài, âm thanh,... và đặc biệt là chỉnh sửa các đoạn video được AI tạo ra.
 Sử dụng AI để chỉnh sửa chính các video do AI tạo ra.
 4. Tính đổi mới và Lợi thế cạnh tranh: 
-Giải pháp "SteamFun - Generative Manim-powered for Animated Learning" không chỉ là một công cụ tạo video AI thông thường mà sự đổi mới của ứng dụng nằm ở khả năng ứng dụng trí tuệ nhân tạo theo một cách khác biệt và sự đa dạng về nội dung.
+Giải pháp "StemFun - Generative Manim-powered for Animated Learning" không chỉ là một công cụ tạo video AI thông thường mà sự đổi mới của ứng dụng nằm ở khả năng ứng dụng trí tuệ nhân tạo theo một cách khác biệt và sự đa dạng về nội dung.
 Điểm đổi mới nổi bật:
 Trực quan hóa STEM bằng Manim:
 Sử dụng thư viện Manim để tạo minh họa khoa học chính xác và sinh động cho các khái niệm toán học, vật lý, hóa học, lập trình… giúp minh họa rõ ràng, tránh chồng chéo yếu tố và đảm bảo tính chính xác học thuật[6].
@@ -35,13 +35,13 @@ Tiềm năng phát triển cộng đồng mã nguồn mở: Cung cấp API cho b
 
 5. Đối tượng người dùng mục tiêu và Tiềm năng tác động:
 Đối tượng người dùng mục tiêu
-Giải pháp "SteamFun - Generative Manim-powered for Animated Learning" hướng đến một phổ rộng các đối tượng người dùng trong lĩnh vực giáo dục và đào tạo, những người có nhu cầu về nội dung STEM chính xác, trực quan và tương tác:
+Giải pháp "StemFun - Generative Manim-powered for Animated Learning" hướng đến một phổ rộng các đối tượng người dùng trong lĩnh vực giáo dục và đào tạo, những người có nhu cầu về nội dung STEM chính xác, trực quan và tương tác:
 Học sinh và Sinh viên: Đây là đối tượng cốt lõi, từ học sinh K-12 đến sinh viên đại học chuyên ngành Khoa học, Công nghệ, Kỹ thuật và Toán học. Giải pháp này đặc biệt hữu ích cho những người gặp khó khăn trong việc hình dung các khái niệm trừu tượng hoặc cần một phương pháp học tập cá nhân hóa hơn[8].
 Giáo viên và Nhà giáo dục: Các giáo viên phổ thông đến giảng viên đại học, những người mong muốn tạo ra các tài liệu giảng dạy hấp dẫn, chính xác và hiệu quả mà không cần có chuyên môn sâu về lập trình hoặc thiết kế hoạt hình phức tạp[6]. Giải pháp giúp họ tiết kiệm thời gian và công sức trong việc chuẩn bị bài giảng.  
 Nhà nghiên cứu và Học giả: Những người cần trực quan hóa các kết quả nghiên cứu, lý thuyết phức tạp hoặc dữ liệu khoa học để trình bày trong các bài báo, hội nghị hoặc bài giảng, giúp khán giả dễ dàng nắm bắt các ý tưởng phức tạp[6].  
 Các tổ chức giáo dục và Nền tảng học trực tuyến: Các trường học, đại học, trung tâm đào tạo và các nền tảng eLearning đang tìm kiếm các công cụ tiên tiến để cung cấp trải nghiệm học tập chất lượng cao, cá nhân hóa và có khả năng mở rộng cho học viên của họ.  
 Tiềm năng tác động
-Giải pháp "SteamFun - Generative Manim-powered for Animated Learning" có tiềm năng tạo ra tác động sâu rộng và tích cực đến bối cảnh giáo dục STEM:
+Giải pháp "StemFun - Generative Manim-powered for Animated Learning" có tiềm năng tạo ra tác động sâu rộng và tích cực đến bối cảnh giáo dục STEM:
 Cải thiện đáng kể kết quả học tập:
 Nâng cao khả năng hiểu và ghi nhớ: Những video có đồ họa có thể cải thiện khả năng hiểu trung bình 23% và lên đến 65% đối với các chủ đề liên quan đến sự thay đổi, biến đổi của hàm số, các chất,...[9] Việc kết hợp chuyển động và kể chuyện giúp củng cố các khái niệm và tăng khả năng ghi nhớ thông tin lên 40% so với các bài giảng truyền thống.[9]
 Trực quan hóa: Các hoạt ảnh được tạo ra với Manim có thể đơn giản hóa các chủ đề phức tạp, giúp chúng dễ tiếp cận và ít gây khó khăn hơn cho học sinh, từ đó tạo sự hứng thú cho học tập.  
@@ -59,7 +59,7 @@ Cộng đồng mã nguồn mở:
 Việc cung cấp API và mã nguồn mở cho tính năng tạo video có thể thu hút một cộng đồng phát triển và cải tiến hệ thống lâu dài, thúc đẩy sự đổi mới liên tục và tạo ra một hệ sinh thái mạnh mẽ hơn
 6. Mô tả về chi tiết về sản phẩm: Kỹ thuật và tính khả thi
 A. Công nghệ dự kiến sử dụng
-Để xây dựng hệ thống "SteamFun - Generative Manim-powered for Animated Learning" mạnh mẽ và linh hoạt, chúng tôi sẽ áp dụng một tập hợp các công nghệ, bao gồm các mô hình Generative AI như GPT-4o, Claude 4, Gemini 2.5, các framework phát triển AI Agents, và các thư viện chuyên biệt cho việc trực quan hóa khoa học. 
+Để xây dựng hệ thống "StemFun - Generative Manim-powered for Animated Learning" mạnh mẽ và linh hoạt, chúng tôi sẽ áp dụng một tập hợp các công nghệ, bao gồm các mô hình Generative AI như GPT-4o, Claude 4, Gemini 2.5, các framework phát triển AI Agents, và các thư viện chuyên biệt cho việc trực quan hóa khoa học. 
 Module
 Công nghệ / Mô hình / Framework
 Generative AI
@@ -97,11 +97,11 @@ Tự tạo bằng code tự động
 
 
 
-# SteamFun Landing Page Specification
+# StemFun Landing Page Specification
 
 ## Goal
 
-Design and implement a modern, startup-style landing page for **SteamFun — Generative Manim-powered for Animated Learning**, showcasing the product vision, features, and call-to-actions (CTAs) to drive user engagement and early adoption.
+Design and implement a modern, startup-style landing page for **StemFun — Generative Manim-powered for Animated Learning**, showcasing the product vision, features, and call-to-actions (CTAs) to drive user engagement and early adoption.
 
 ---
 
@@ -119,7 +119,7 @@ Design and implement a modern, startup-style landing page for **SteamFun — Gen
 
 ### 1. **Header (Navigation Bar)**
 
-* Logo (SteamFun icon + wordmark)
+* Logo (StemFun icon + wordmark)
 * Navigation links: Home, Features, Pricing, FAQ, Docs
 * CTA button: **Try Demo** (primary color)
 * Responsive design: collapses into hamburger menu on mobile
@@ -214,7 +214,7 @@ Design and implement a modern, startup-style landing page for **SteamFun — Gen
 
 * Links: Product, Docs, Blog, Careers, Community, Privacy, Terms, Contact
 * Social icons
-* Copyright © SteamFun 2025
+* Copyright © StemFun 2025
 
 ---
 

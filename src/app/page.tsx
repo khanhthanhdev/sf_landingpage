@@ -6,12 +6,14 @@ import Editor from "@/components/landing/Editor";
 import Gallery from "@/components/landing/Gallery";
 import Pricing from "@/components/landing/Pricing";
 import SocialProof from "@/components/landing/SocialProof";
+import Integrations from "@/components/landing/Integrations";
 import FAQ from "@/components/landing/FAQ";
 import FinalCTA from "@/components/landing/FinalCTA";
+import Footer from "@/components/landing/Footer";
 
 export default function Home() {
   return (
-    <main>
+    <main className="pt-16">
       <Hero />
       <HowItWorks />
       <Features />
@@ -20,8 +22,10 @@ export default function Home() {
       <Gallery />
       <Pricing />
       <SocialProof />
+      <Integrations />
       <FAQ />
       <FinalCTA />
+      <Footer />
     </main>
   );
 }

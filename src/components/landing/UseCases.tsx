@@ -1,16 +1,34 @@
 export default function UseCases() {
-  const items = ["K-12 Math", "University Physics", "Chemistry", "Algorithms", "Data Viz", "Research Talks"]; 
   return (
     <section id="use-cases" className="container mx-auto px-4 py-16">
-      <h2 className="text-2xl md:text-4xl font-semibold tracking-tight text-center">Use Cases</h2>
-      <div className="mt-8 overflow-x-auto">
-        <div className="flex gap-4 min-w-max">
-          {items.map((x) => (
-            <div key={x} className="shrink-0 rounded-lg border px-5 py-10 w-64 text-center">{x}</div>
-          ))}
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-12">
+            Use Cases
+          </h2>
+
+          {/* Use cases card layout */}
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            {[
+              "K-12 Math",
+              "University Physics",
+              "Chemistry",
+              "Algorithms",
+              "Data Viz",
+              "Research Talks",
+            ].map((useCase) => (
+              <div
+                key={useCase}
+                className="bg-gray-900 rounded-xl px-8 py-5 shadow-sm transition-all duration-200 min-w-[180px] transform hover:scale-105"
+              >
+                <span className="text-base font-medium text-white">
+                  {useCase}
+                </span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
   );
 }
-
