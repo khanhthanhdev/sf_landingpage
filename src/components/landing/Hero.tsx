@@ -1,3 +1,4 @@
+import { TRY_IT_LINK } from "@/lib/constants";
 import AnimatedCanvas from "../animation/AnimatedCanvas";
 
 export default function Hero() {
@@ -29,23 +30,17 @@ export default function Hero() {
               {/* Buttons and Social Proof */}
               <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12 md:mb-0">
                 <div className="flex flex-col sm:flex-row items-center gap-4">
-                  <button className="inline-flex h-12 items-center rounded-lg bg-primary px-8 text-lg font-medium text-primary-foreground hover:bg-primary/90 transition-colors shadow-lg shadow-primary/25 cursor-pointer">
+                  <a
+                    href={TRY_IT_LINK}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex h-12 items-center rounded-lg bg-primary px-8 text-lg font-medium text-primary-foreground hover:bg-primary/90 transition-colors shadow-lg shadow-primary/25 cursor-pointer"
+                  >
                     Try the Interactive Demo
-                  </button>
+                  </a>
                   <button className="inline-flex h-12 items-center rounded-lg border border-border px-8 text-lg font-medium hover:bg-accent transition-colors cursor-pointer">
                     Watch 60s Overview
                   </button>
-                </div>
-
-                {/* Trusted by section */}
-                <div className="flex items-center gap-3 text-muted-foreground">
-                  <span className="text-yellow-400 text-xl">★</span>
-                  <span className="text-sm font-medium">Trusted by:</span>
-                  <div className="flex items-center gap-4 text-sm font-semibold">
-                    <span>NASA</span>
-                    <span>MIT</span>
-                    <span>OCW</span>
-                  </div>
                 </div>
               </div>
             </div>

@@ -16,10 +16,10 @@ export default function Home() {
     <main className="pt-16">
       <Hero />
       <HowItWorks />
+      <Gallery />
       <Features />
       <UseCases />
       <Editor />
-      <Gallery />
       <Pricing />
       <SocialProof />
       <Integrations />

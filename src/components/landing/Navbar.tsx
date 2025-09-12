@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { TRY_IT_LINK } from "@/lib/constants";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -47,9 +47,13 @@ const Navbar = () => {
 
           {/* Try It Button - Desktop */}
           <div className="hidden md:block">
-            <Button className="bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground font-medium cursor-pointer">
+            <a
+              href={TRY_IT_LINK}
+              target="_blank"
+              className="block w-full text-center bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground font-medium cursor-pointer px-3 py-2 rounded-md"
+            >
               Try It
-            </Button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -85,9 +89,13 @@ const Navbar = () => {
               </Link>
             ))}
             <div className="pt-3">
-              <Button className="w-full bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground font-medium cursor-pointer">
+              <a
+                href={TRY_IT_LINK}
+                target="_blank"
+                className="block w-full text-center bg-gradient-to-r from-primary to-accent hover:from-primary/90 hover:to-accent/90 text-primary-foreground font-medium cursor-pointer px-3 py-2 rounded-md"
+              >
                 Try It
-              </Button>
+              </a>
             </div>
           </div>
         </div>

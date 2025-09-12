@@ -1,3 +1,5 @@
+import { TRY_IT_LINK } from "@/lib/constants";
+
 export default function FinalCTA() {
   return (
     <section id="cta" className="container mx-auto px-4 py-20">
@@ -7,9 +9,14 @@ export default function FinalCTA() {
             Ready to create your first interactive STEM video?
           </h2>
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button className="inline-flex h-12 items-center rounded-lg bg-primary px-8 text-lg font-medium text-primary-foreground hover:bg-primary/90 transition-colors shadow-lg shadow-primary/25 cursor-pointer">
+            <a
+              href={TRY_IT_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex h-12 items-center rounded-lg bg-primary px-8 text-lg font-medium text-primary-foreground hover:bg-primary/90 transition-colors shadow-lg shadow-primary/25 cursor-pointer"
+            >
               Try the Interactive Demo
-            </button>
+            </a>
             <button className="inline-flex h-12 items-center rounded-lg border border-border px-8 text-lg font-medium hover:bg-accent transition-colors cursor-pointer">
               Talk to Sales
             </button>
