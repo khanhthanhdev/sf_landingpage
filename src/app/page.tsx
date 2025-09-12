@@ -5,7 +5,7 @@ import UseCases from "@/components/landing/UseCases";
 import Editor from "@/components/landing/Editor";
 import Gallery from "@/components/landing/Gallery";
 import Pricing from "@/components/landing/Pricing";
-import SocialProof from "@/components/landing/SocialProof";
+// import SocialProof from "@/components/landing/SocialProof";
 import Integrations from "@/components/landing/Integrations";
 import FAQ from "@/components/landing/FAQ";
 import FinalCTA from "@/components/landing/FinalCTA";
@@ -21,7 +21,7 @@ export default function Home() {
       <UseCases />
       <Editor />
       <Pricing />
-      <SocialProof />
+      {/* <SocialProof /> */}
       <Integrations />
       <FAQ />
       <FinalCTA />
