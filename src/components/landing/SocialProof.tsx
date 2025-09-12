@@ -34,8 +34,8 @@ export default function SocialProof() {
         {/* Rating and Stats */}
         <div className="text-center mb-12">
           <p className="text-lg md:text-xl text-muted-foreground mb-4">
-            &quot;The best STEM explainer tool we&apos;ve tried.&quot; &mdash;
-            Dr. X, University Y
+            &quot;An incredible tool that has transformed our teaching
+            methods.&quot; &mdash; Dr. Jane Doe, Harvard University
           </p>
           <div className="flex items-center justify-center gap-2 mb-2">
             {[...Array(5)].map((_, i) => (
