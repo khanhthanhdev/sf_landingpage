@@ -31,7 +31,7 @@ export default function Gallery() {
   ];
 
   return (
-    <section id="gallery" className="container mx-auto px-4 py-16">
+    <section id="gallery" className="container mx-auto px-4 py-8">
       <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-12 text-center">
         Gallery
       </h2>

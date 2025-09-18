@@ -8,11 +8,11 @@ export default function Hero() {
       className="min-h-screen flex items-center justify-center overflow-hidden"
     >
       {/* Content */}
-      <div className="container mx-auto px-4 md:py-0 py-20 relative z-10">
+      <div className="container mx-auto px-4 md:py-0 py-12 md:py-20 relative z-10">
         {/* Header Section */}
         <div className="max-w-6xl mx-auto">
           {/* Main heading and subhead */}
-          <div className="relative text-center mb-12 md:mb-0 md:h-[calc(100vh-4rem)] md:flex md:flex-col md:justify-center">
+          <div className="relative text-center mb-0 h-[calc(100vh-4rem)] md:flex md:flex-col md:justify-center">
             {/* Animated Canvas Background */}
             <div className="absolute inset-0 -z-20">
               <AnimatedCanvas />

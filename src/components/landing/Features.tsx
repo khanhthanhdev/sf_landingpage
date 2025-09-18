@@ -54,7 +54,7 @@ export default function Features() {
           {topRowItems.map((item) => (
             <div
               key={item.title}
-              className="glass-effect rounded-xl p-6 hover:border-primary/30 transition-colors"
+              className="glass-effect rounded-xl p-6 hover:border-primary/30 transition-colors flex flex-col items-center text-center md:items-start md:text-left"
             >
               <div className="text-4xl mb-4">{item.icon}</div>
               <h3 className="font-semibold text-lg mb-2">{item.title}</h3>
@@ -68,7 +68,7 @@ export default function Features() {
           {bottomRowItems.map((item) => (
             <div
               key={item.title}
-              className="glass-effect rounded-xl p-6 hover:border-primary/30 transition-colors"
+              className="glass-effect rounded-xl p-6 hover:border-primary/30 transition-colors flex flex-col items-center text-center md:items-start md:text-left"
             >
               <div className="text-4xl mb-4">{item.icon}</div>
               <h3 className="font-semibold text-lg mb-2">{item.title}</h3>

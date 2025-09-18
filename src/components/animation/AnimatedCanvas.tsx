@@ -33,7 +33,7 @@ export default function AnimatedCanvas() {
     // Set canvas size
     const resizeCanvas = () => {
       canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
+      canvas.height = window.innerHeight - 65; // Adjust for navbar height
     };
     resizeCanvas();
     window.addEventListener("resize", resizeCanvas);
