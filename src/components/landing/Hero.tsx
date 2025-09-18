@@ -48,7 +48,7 @@ export default function Hero() {
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
             {/* Demo Player - 3/4 width */}
             <div className="lg:col-span-3">
-              <div className="bg-card border border-border rounded-lg p-6 h-96">
+              <div className="bg-card border border-border rounded-lg p-6 md:h-96">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
                     <span className="text-primary-foreground text-sm">▶</span>
@@ -80,7 +80,7 @@ export default function Hero() {
 
             {/* Code-to-Animation Panel - 1/4 width */}
             <div className="lg:col-span-1">
-              <div className="bg-card border border-border rounded-lg p-4 h-96">
+              <div className="bg-card border border-border rounded-lg p-4 md:h-96">
                 <h3 className="text-lg font-semibold mb-4">Code-to-Anim</h3>
 
                 {/* Input section */}

@@ -2,7 +2,7 @@ import { TRY_IT_LINK } from "@/lib/constants";
 
 export default function FinalCTA() {
   return (
-    <section id="cta" className="container mx-auto px-4 py-20">
+    <section id="cta" className="container mx-auto px-4 py-8 md:py-20">
       <div className="max-w-4xl mx-auto">
         <div className="glass-effect rounded-3xl p-12 text-center">
           <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white">
