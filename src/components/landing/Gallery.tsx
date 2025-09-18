@@ -43,6 +43,7 @@ export default function Gallery() {
                 className="w-full h-full object-cover"
                 controls
                 preload="metadata"
+                poster={`/preview_images/preview-${i + 1}.jpeg`}
               >
                 <source src={`/videos/demo_${i + 1}.mp4`} type="video/mp4" />
                 Your browser does not support the video tag.
